@@ -45,10 +45,10 @@
                     <input type="text" name="moduleLabel${i}" id="moduleLabel${i}" required>
                     <br>
                     <label for="coefficient${i}">Coefficient:</label>
-                    <input type="number" name="coefficient${i}" id="coefficient${i}" required>
+                    <input type="number" name="coefficient${i}" id="coefficient${i}" required  min="0" max="20">
                     <br>
                     <label for="grade${i}">Grade:</label>
-                    <input type="number" name="grade${i}" id="grade${i}" required>
+                    <input type="number" name="grade${i}" id="grade${i}" required  min="0" max="20">
                 `;
             }
         }
